@@ -1,0 +1,134 @@
+header {
+    height: 100vh;
+    padding-top: 7rem;
+    overflow: hidden;
+}
+
+.header_container {
+    /* text-align: center; */
+    height: 100%;
+    left: 20px;
+    margin-left: 280px;
+    margin-top: 150px;
+    /* position: relative; */
+    /* display: flex; */
+}
+
+/* ..............CTA............. */
+.cta {
+    margin-top: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: flex-start;
+}
+
+/* ***************socials************* */
+.header__social {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: absolute;
+    left: 6rem;
+    bottom: 3rem;
+}
+
+.header__social::after {
+    content: "";
+    width: 1px;
+    height: 2rem;
+    background: var(--color-primary);
+}
+
+/* ***************me************* */
+.me {
+    width: 100%;
+
+    border-radius: 2rem;
+    background: linear-gradient(45deg,
+            transparent,
+            var(--color-primary),
+            transparent);
+    /* display: grid; */
+    place-items: center;
+
+
+
+    width: 22rem;
+    display: inline-block;
+
+    position: absolute;
+    right: 225px;
+
+
+
+
+    overflow: hidden;
+    bottom: 115px;
+
+}
+
+/* ***************Scroll down************* */
+.scroll_down {
+    position: absolute;
+    right: 6rem;
+    bottom: 5rem;
+    transform: rotate(90deg);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+/* ***************Media Queries(medium device)************* */
+
+/* ***************Media Queries(small device)************* */
+@media screen and (max-width:786px) {
+    header {
+        height: 100vh;
+    }
+
+    .header__social,
+    .scroll_down {
+        display: none;
+    }
+
+    .header_container {
+        text-align: center;
+        display: inline-block;
+        position: absolute;
+        margin-left: 500px;
+        top: -50px;
+
+
+    }
+
+    .header_container h5 {
+        position: relative;
+        right: 250px;
+    }
+
+    .header_container h1 {
+        position: relative;
+        right: 250px;
+
+    }
+
+    .header_container h3 {
+        position: relative;
+        right: 250px;
+    }
+
+    .cta {
+        gap: 10px;
+        position: relative;
+        top: 500px;
+        right: 250px;
+    }
+
+    .me {
+        top: 120px;
+        position: absolute;
+
+        margin-bottom: 60px;
+
+    }
+}
