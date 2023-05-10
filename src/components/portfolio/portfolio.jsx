@@ -17,7 +17,7 @@ export default function Portfolio() {
 
                     <h3>Personal Portfolio</h3>
                     <div className="portfolio__item-cta">
-                    <a href="https://github.com" className="btn" target="_blank">Github</a>
+                    <a href="https://github.com/goutam-23/portfolio" className="btn" target="_blank">Github</a>
                     <a href="https://github.com" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
@@ -37,8 +37,8 @@ export default function Portfolio() {
 
                     <h3>Web Based Examination System</h3>
                     <div className="portfolio__item-cta">
-                    <a href="https://github.com" className="btn" target="_blank">Github</a>
-                    <a href="https://github.com" className="btn btn-primary" target="_blank">Live Demo</a>
+                    <a href="https://github.com/goutam-23/" className="btn" target="_blank">Github</a>
+                    <a href="https://github.com/goutam-23/" className="btn btn-primary" target="_blank">Live Demo</a>
                     </div>
                 </article>
 
